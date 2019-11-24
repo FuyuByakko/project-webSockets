@@ -6,15 +6,15 @@ Front-end use was based in the browser console.
 Can see visuals for simple demonstration!
 
 ## Explanation of branches(stages)
-1. http-server
+  1.`http-server` <br>
   Creation of the basic http server.
-2. add-websocket
+  2.`add-websocket` <br>
   Create a websocket server and link it to the http-server
-3. connection
+  3.`connection` <br>
   Create an actual connection via websocket
-4. interval
+  4.`interval` <br>
   Created a server generated message, sent every 5 seconds
-5. master
+  5.`master` <br>
   The final version, supports sending and transferrign messages.
 
 ## Additional Information
