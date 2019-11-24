@@ -1,0 +1,13 @@
+{
+  "name": "project-webSockets",
+  "version": "0.0.1",
+  "description": "techTalk for BigMiniConf - websockets and their use",
+  "main": "index.js",
+  "author": "Igor Michailov <igor.m.byak@gmail.com>",
+  "license": "none",
+  "private": false,
+  "dependencies": {
+    "http": "^0.0.0",
+    "websocket": "^1.0.30"
+  }
+}
