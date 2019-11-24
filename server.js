@@ -3,7 +3,7 @@ const WebSocketServer = require("websocket").server;
 let connections = [];
 
 let httpServer = http.createServer((req, res) => {
-  console.log('request received');
+  res.end("Request Received");
 })
 
 const wsServer = new WebSocketServer({"httpServer": httpServer});
