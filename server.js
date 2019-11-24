@@ -10,9 +10,9 @@ const wsServer = new WebSocketServer({"httpServer": httpServer});
 wsServer.on("request", request => {
   connection = request.accept(null, request.origin);
   console.log("New Connection Created!");
+  setInterval(() => {connection.send(new Date())}, 5000)
 })
 
-setInterval(() => {connection.send(new Date())})
 
 httpServer.listen(8080);
 console.log("OPENED on port 8080");
