@@ -1,4 +1,4 @@
-*** project WebSocket ***
+# Project WebSocket
 
 ## Description
 A simple project showing the basic steps of creating a WebSocket server.
