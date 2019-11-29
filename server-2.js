@@ -7,5 +7,5 @@ let httpServer = http.createServer((req, res) => {
 
 const wsServer = new WebSocketServer({"httpServer": httpServer});
 
-httpServer.listen(8080);
-console.log("OPENED on port 8080");
+httpServer.listen(6000);
+console.info("OPENED on port 6000");

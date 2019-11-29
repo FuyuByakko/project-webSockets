@@ -8,8 +8,8 @@ let httpServer = http.createServer((req, res) => {
 const wsServer = new WebSocketServer({"httpServer": httpServer});
 wsServer.on("request", request => {
   connection = request.accept(null, request.origin);
-  console.log("New Connection Created!");
+  console.info("New Connection Created!");
 })
 
-httpServer.listen(8080);
-console.log("OPENED on port 8080");
+httpServer.listen(6001);
+console.info("OPENED on port 6000");
